@@ -1,0 +1,33 @@
+li
+{
+    font-family:  Georgia;
+    font-size  : 50px;
+    border : 2px solid red;
+    width: 20%;
+    text-align: center;
+     
+}
+.heading
+{
+  text-align: center;
+  font-family: Georgia;
+
+  font-size: 100px;  
+  text-shadow: 1px 1px red;
+}
+.button
+{
+    margin-left: 20%;
+    padding: 20px 40px;
+}
+.empty
+{
+ 
+    float: left;
+    
+}
+.li1
+{
+   display: block;
+   margin-left: 30%;
+}
