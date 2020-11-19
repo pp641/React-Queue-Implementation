@@ -23,8 +23,8 @@ function Arraycounter() {
     return (
         <div>
             <div className = "heading">Queue Implementation</div>
-            <button className = " button btn btn-outline-success " onClick = {HandleClick1} > Push </button>
-            <button className = " button btn btn-outline-danger" onClick = {HandleClick2} > Pop  </button>
+            <button className = " button btn btn-outline-success " onClick = {HandleClick1} > Enqueue </button>
+            <button className = " button btn btn-outline-danger" onClick = {HandleClick2} > Dequeue </button>
             <div>
                 {
                     (hook.length === 0) ?  <div className = "empty btn btn-outline-info">Empty</div> :   <div className = "btn btn-outline-warning" >size : {hook.length}</div>
@@ -33,7 +33,7 @@ function Arraycounter() {
             <ol>
             {
            hook.map( (hook1,hook2) =>
-            hook2 === 0 ? <li className = "btn btn-outline-primary li1"> {hook1}  <span> Top </span> </li> : <li className = "btn btn-outline-success li1">{hook1} <br/> </li>
+            hook2 === 0 ? <li className = "btn btn-outline-primary li1"> {hook1}  <span> Front </span> </li> : <li className = "btn btn-outline-success li1">{hook1} <br/> </li>
 
            )
            }
